@@ -10,20 +10,20 @@ namespace DragonSlaying
     {
         static Hero MyHero = new Hero
         {
-            Name = "Brienne",
-            Offense = 4,
-            Defense = 2,
-            MaxHitPoints = 25,
-            HitPoints = 25,
+            Name = "Jon Snow",
+            Offense = 20,
+            Defense = 10,
+            MaxHitPoints = 200,
+            HitPoints = 200,
         };
 
         static Dragon MyEnemy = new Dragon
         {
-            Name = "Drogon",
-            Offense = 16,
+            Name = "Lannister",
+            Offense = 20,
             Defense = 12,
-            MaxHitPoints = 60,
-            HitPoints = 60
+            MaxHitPoints = 150,
+            HitPoints = 150
         };
 
 
